@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+header {
+    height: 300px;
+    width: 100%;
+    background: orange;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    color: #ffffff;
+    font-size: 96px;
+}
+header h3 {
+    color: #00aa00;
+    margin-bottom: -70px;
+}
+
+article {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+section p {
+    width: 400px;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background: #006600;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 {
+    background: #ffffaa;
+}
+.section2 {
+    background: #ffffff;
+}
+.section3 {
+    background: #ffffaa;
+}
+.section4 {
+    background: #ffffff;
+}
+.section5 {
+    background: #ffffaa;
+}
+.section6 {
+    background: #ffffff;
+}
+.section7 {
+    background: #ffffaa;
+}
+
+.swift {
+    color: #ff4400;
+    font-weight: bold;
+}
+
+.kotlin {
+    color: #0044ff;
+    font-weight: bold;
+}
+
+.section4 div {
+    display: flex;
+}
+
+.section4 div img {
+    width: 200px;
+}
