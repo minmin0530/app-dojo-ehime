@@ -44,36 +44,48 @@ section p {
 }
 
 footer {
-    height: 300px;
     width: 100%;
-    background: #006600;
+    background: #005500;
     color: white;
 
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
 }
 
+footer img {
+    width: 256px;
+}
+footer div {
+    margin: 50px;
+}
+
+.middle {
+    font-size: 32px;
+    font-weight: bold;
+}
 .section1 {
     background: #ffffaa;
 }
 .section2 {
-    background: #ffffff;
+    background: #ffffaa;
 }
 .section3 {
-    background: #ffffaa;
+    background: #ffffff;
 }
 .section4 {
     background: #ffffff;
 }
 .section5 {
-    background: #ffffaa;
-}
-.section6 {
     background: #ffffff;
 }
+.section6 {
+    background: #ffffaa;
+}
 .section7 {
+    background: #ffffff;
+}
+.section8 {
     background: #ffffaa;
 }
 
@@ -87,10 +99,21 @@ footer {
     font-weight: bold;
 }
 
+.section1 div {
+    display: flex;
+}
+
 .section4 div {
+    display: flex;
+}
+.section5 div {
     display: flex;
 }
 
 .section4 div img {
     width: 200px;
 }
+.section5 div img {
+    width: 200px;
+}
+
