@@ -20,6 +20,10 @@ header h3 {
     color: #00aa00;
     margin-bottom: -70px;
 }
+header p {
+    color: #ffffff;
+    margin-top: -70px;
+}
 
 article {
     width: 100%;
@@ -43,21 +47,30 @@ section p {
     width: 400px;
 }
 
+article section h1 {
+    font-size: 40px;
+}
+
 footer {
     width: 100%;
-    background: #005500;
+    background: #002288;
     color: white;
-
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
 }
 
 footer img {
     width: 256px;
-}
-footer div {
-    margin: 50px;
 }
 
 .middle {
@@ -86,6 +99,14 @@ footer div {
     background: #ffffff;
 }
 .section8 {
+    background: #ffffff;
+    padding-bottom: 50px;
+}
+.section9 {
+    background: #ffffaa;
+}
+
+.section11 {
     background: #ffffaa;
 }
 
@@ -102,7 +123,9 @@ footer div {
 .section1 div {
     display: flex;
 }
-
+.section2 div {
+    display: flex;
+}
 .section4 div {
     display: flex;
 }
@@ -115,5 +138,18 @@ footer div {
 }
 .section5 div img {
     width: 200px;
+    height: 163px;
 }
 
+.section8 p {
+    width: 300px;
+}
+
+.section11 div img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
